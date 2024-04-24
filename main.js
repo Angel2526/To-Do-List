@@ -1,8 +1,5 @@
 "use strict";
-// ************************************************************************************/
-//                                  Application selectors
-//**************************************************************************************/
-const middleStatusDiv = document
+
   .querySelector(".status-div__middle-div")
   .cloneNode(true);
 const form = document.getElementById("form");
@@ -19,10 +16,6 @@ const filterBtns = document.querySelectorAll(".status-div__middle-div button");
 let filterBtnsLargeScreens;
 const lightModeTag = document.getElementById("lightMode");
 const themeSwitcherBtn = document.querySelector("header button");
-
-// ************************************************************************************/
-//                                  Application functions
-//**************************************************************************************/
 
 function initializeFilterDiv() {
   if (window.innerWidth >= 768) {
