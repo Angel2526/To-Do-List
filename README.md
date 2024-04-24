@@ -1,7 +1,7 @@
-#Todo List App
-*This is a simple Todo list application built with HTML,CSS and javascript.*
+# Todo List App
+**This is a simple Todo list application built with HTML,CSS and javascript.**
 
-##Features
+# Features
 Add Tasks: Easily add new tasks to your Todo list.
 Mark as Complete: Mark tasks as complete when you're done.
 Delete Tasks: Remove tasks you no longer need.
